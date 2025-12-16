@@ -1,0 +1,19 @@
+=== EC2 INSTANCES ===
+Running: ['i-0123abcd']
+Stopped: ['i-0456efgh']
+
+=== ELASTIC IPs ===
+{'PublicIP': '13.xxx.xxx.xxx', 'InUse': False}
+
+=== NAT GATEWAYS ===
+{'NatGatewayId': 'nat-0abcd1234', 'State': 'available'}
+
+=== LOAD BALANCERS ===
+{'Name': 'k8s-default', 'Type': 'application', 'State': 'active'}
+
+=== RDS INSTANCES ===
+{'DBIdentifier': 'mydb', 'Status': 'available', 'Engine': 'mysql'}
+
+=== COST (LAST 7 DAYS) ===
+{'Service': 'Amazon EC2', 'CostUSD': 4.12}
+{'Service': 'Amazon VPC', 'CostUSD': 3.85}
